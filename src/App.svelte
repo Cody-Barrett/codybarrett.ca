@@ -28,7 +28,7 @@
         <h2 class="text-3xl font-bold drop-shadow-lg">
           Hi, I'm <span class="underline decoration-white underline-offset-4">Cody</span>.
         </h2>
-        <p class="text-lg drop-shadow-md pt-2">I'm an IT Specialist with expertise in Python Development, Network/System Administration, and Cybersecurity.</p>
+        <p class="text-lg drop-shadow-md pt-2">I'm an IT Specialist with expertise in Software Development, Network/System Administration, and Cybersecurity.</p>
       </div>
       <div class="pt-12 max-w-max mx-auto grid xl:grid-cols-7 lg:grid-cols-6 md:grid-cols-5 sm:grid-cols-3 grid-cols-2 text-black gap-4">
         <SVGCard name="Python"></SVGCard>
