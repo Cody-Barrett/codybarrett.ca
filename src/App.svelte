@@ -50,7 +50,7 @@
     <h2 class="pt-12 text-3xl font-bold drop-shadow-lg text-center">
       <span class="underline underline-offset-4 decoration-4">Projects</span>.
     </h2>
-    <div class="container py-12 grid mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-20">
+    <div class="container py-12 grid mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-10">
       <Project thumbnail="Site Preview.png" header="https://codybarrett.ca" description="My personal portfolio site made with TailwindCSS, Vite, and Svelte. Built and deployed using GitHub Actions." link="https://github.com/Cody-Barrett/codybarrett.ca" link_text="View On GitHub"></Project>
     </div>
   </body>
