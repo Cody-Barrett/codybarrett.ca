@@ -9,12 +9,14 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "^4.17.2",
     "@sveltejs/vite-plugin-svelte": "^3.0.2",
     "autoprefixer": "^10.4.19",
     "postcss": "^8.4.38",
     "svelte": "^4.2.12",
     "tailwindcss": "^3.4.3",
     "vite": "^5.2.0"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "^4.17.2"
   }
 }
