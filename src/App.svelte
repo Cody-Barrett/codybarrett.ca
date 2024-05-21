@@ -53,8 +53,10 @@
     <h2 class="pt-12 text-3xl font-bold text-center drop-shadow-lg">
       <span class="underline underline-offset-4 decoration-4">Projects</span>.
     </h2>
-    <div class="container grid grid-cols-1 gap-4 px-10 py-12 mx-auto md:grid-cols-2 lg:grid-cols-3">
+    <div class="container grid grid-cols-1 gap-4 px-10 py-12 mx-auto place-items-center md:grid-cols-2 lg:grid-cols-3">
       <Project thumbnail="Site Preview.png" header="https://codybarrett.ca" description="My personal portfolio site made with TailwindCSS, Vite, and Svelte. Built and deployed using GitHub Actions." link="https://github.com/Cody-Barrett/codybarrett.ca" link_text="View On GitHub"></Project>
+      <Project thumbnail="LoremIpsum.png" header="Lorem Ipsum" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lacinia tincidunt libero non tempus. Nunc viverra rhoncus diam nec laoreet. Aliquam urna orci, eleifend nec metus nec, ullamcorper molestie purus." link="https://codybarrett.ca" link_text="Lorem ipsum"></Project>
+      <Project thumbnail="LoremIpsum.png" header="Lorem Ipsum" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent porta varius congue. Nullam id dui ullamcorper massa placerat egestas." link="https://codybarrett.ca" link_text="Lorem ipsum"></Project>
     </div>
   </body>
   <footer class="flex flex-col items-center justify-center w-full py-12 space-y-10 bg-[#002244] md:flex-row md:justify-around md:space-y-0 md:space-x-2">
