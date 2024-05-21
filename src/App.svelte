@@ -4,20 +4,20 @@
 </script>
 
 <main class="font-mono">
-  <header class="z-10 sticky top-0 bg-white shadow-md px-8 py-02 border-b-black border-b">
-    <div class="max-w-screen-xl mx-auto flex items-center justify-between py-2">
+  <header class="sticky top-0 z-10 px-8 bg-white border-b shadow-md py-02 border-b-black">
+    <div class="flex items-center justify-between max-w-screen-xl py-2 mx-auto">
       <!-- Name -->
-      <h1 class="font-bold text-2xl md:text-4xl drop-shadow-sm">Cody Barrett</h1>
+      <h1 class="text-2xl font-bold md:text-4xl drop-shadow-sm">Cody Barrett</h1>
       <!-- Links -->
       <ul class="flex space-x-1">
         <a href="https://github.com/Cody-Barrett">
-          <img src="/social_icons/github.svg" alt="Github Logo" class="hover:scale-125 transition ease-in-out delay-75 drop-shadow-lg md:size-12 size-9" />
+          <img src="/social_icons/github.svg" alt="Github Logo" class="transition ease-in-out delay-75 hover:scale-125 drop-shadow-lg md:size-12 size-9" />
         </a>
         <a href="https://www.linkedin.com/in/cody-barrett-58657830a">
           <img src="/social_icons/linkedin.svg" alt="Linkedin Logo" class="hover:scale-125 transition ease-in-out delay-75 ml-0.5 mr-1 drop-shadow-md md:size-12 size-9" />
         </a>
         <a href="https://x.com/CodyBarrettS">
-          <img src="/social_icons/twitter.svg" alt="Twitter Logo" class="hover:scale-125 transition ease-in-out delay-75 drop-shadow-lg md:size-12 size-9" />
+          <img src="/social_icons/twitter.svg" alt="Twitter Logo" class="transition ease-in-out delay-75 hover:scale-125 drop-shadow-lg md:size-12 size-9" />
         </a>
       </ul>
     </div>
@@ -28,9 +28,9 @@
         <h2 class="text-3xl font-bold drop-shadow-lg">
           Hi, I'm <span class="underline decoration-white underline-offset-4">Cody</span>.
         </h2>
-        <p class="px-10 text-lg drop-shadow-md pt-2">I'm an IT Specialist with expertise in Software Development, Network/System Administration, and Cybersecurity.</p>
+        <p class="px-10 pt-2 text-lg drop-shadow-md text-balance">I'm an IT Specialist with expertise in Software Development, Network/System Administration, and Cybersecurity.</p>
       </div>
-      <div class="pt-12 px-2 max-w-max mx-auto grid xl:grid-cols-7 lg:grid-cols-6 md:grid-cols-5 sm:grid-cols-4 min-[320px]:grid-cols-3 grid-cols-2 text-black gap-3">
+      <div class="pt-12 px-2 max-w-max mx-auto grid xl:grid-cols-7 lg:grid-cols-6 md:grid-cols-5 sm:grid-cols-4 min-[320px]:grid-cols-3 grid-cols-2 text-black gap-2">
         <SVGCard name="Python"></SVGCard>
         <SVGCard name="C++"></SVGCard>
         <SVGCard name="NodeJS"></SVGCard>
@@ -50,10 +50,10 @@
         <SVGCard name="Office"></SVGCard>
       </div>
     </div>
-    <h2 class="pt-12 text-3xl font-bold drop-shadow-lg text-center">
+    <h2 class="pt-12 text-3xl font-bold text-center drop-shadow-lg">
       <span class="underline underline-offset-4 decoration-4">Projects</span>.
     </h2>
-    <div class="container py-12 grid mx-auto grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-10">
+    <div class="container grid grid-cols-1 gap-4 px-10 py-12 mx-auto md:grid-cols-2 lg:grid-cols-3">
       <Project thumbnail="Site Preview.png" header="https://codybarrett.ca" description="My personal portfolio site made with TailwindCSS, Vite, and Svelte. Built and deployed using GitHub Actions." link="https://github.com/Cody-Barrett/codybarrett.ca" link_text="View On GitHub"></Project>
     </div>
   </body>
