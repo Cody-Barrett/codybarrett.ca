@@ -57,4 +57,14 @@
       <Project thumbnail="Site Preview.png" header="https://codybarrett.ca" description="My personal portfolio site made with TailwindCSS, Vite, and Svelte. Built and deployed using GitHub Actions." link="https://github.com/Cody-Barrett/codybarrett.ca" link_text="View On GitHub"></Project>
     </div>
   </body>
+  <footer class="flex flex-col items-center justify-center w-full py-12 space-y-10 bg-[#002244] md:flex-row md:justify-around md:space-y-0 md:space-x-2">
+    <div class="flex items-center space-x-2">
+      <img src="Email Icon.svg" alt="Mail Icon" class="md:size-14 size-9" />
+      <h1 class="text-[#C0C0C0] text-lg sm:text-xl lg:text-2xl">contact@codybarrett.ca</h1>
+    </div>
+    <div class="flex items-center space-x-2">
+      <img src="Phone.svg" alt="Mail Icon" class="md:size-14 size-9" />
+      <h1 class="text-[#C0C0C0] sm:text-xl lg:text-2xl text-lg">902-218-9383</h1>
+    </div>
+  </footer>
 </main>
