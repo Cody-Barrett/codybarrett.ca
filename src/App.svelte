@@ -66,7 +66,7 @@
     </div>
     <div class="flex items-center space-x-2">
       <img src="Phone.svg" alt="Mail Icon" class="md:size-14 size-9" />
-      <h1 class="text-[#C0C0C0] sm:text-xl lg:text-2xl text-lg">902-218-9383</h1>
+      <h1 class="text-[#C0C0C0] sm:text-xl lg:text-2xl text-lg">XXX-XXX-XXXX</h1>
     </div>
   </footer>
 </main>
